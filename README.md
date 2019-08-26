@@ -6,7 +6,7 @@ A customised file transfer protocol is developed that uses UDP along with NACK t
 
 This project is executed on the DETERLab testbed.
 
-The main aim is to break the large file into packets of 1464 bytes. Each packet contains data, one flag bit(1 for last packet and 0 otherwise) and one sequence bit. The client initially sends the file size with sequence number 0 as the first packet, so that the server is updated about how many total number of packets are going to be received for that file. It then sends the packets updating the flag bit and the sequence bit for each packet. The server on the other hand sends the NACK if it does not receive a particular packet of particular sequence number. Also, the server send the NACK with -1 if it successfully receives all the packets indicating that the file was successfully sent transferred.
+The main aim is to break the large file into packets of 1464 bytes. Each packet contains data, one flag bit(1 for last packet and 0 otherwise) and one sequence bit. The client initially sends the file size with sequence number 0 as the first packet, so that the server is updated about how many total number of packets are going to be received for that file. It then sends the packets updating the flag bit and the sequence bit for each packet. The server on the other hand sends the NACK if it does not receive a particular packet of particular sequence number. Also, the server send the NACK with -1 if it receives all the packets indicating that the file was successfully transferred.
 
 Steps for running the application:
 

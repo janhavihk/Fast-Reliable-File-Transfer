@@ -19,3 +19,8 @@ Results obtained on 100 Mbps Duplex link with 200ms delay and 20% loss:
 
 Throughput = 35.79Mbps
 Transfer time = 240 sec
+
+Group Members:
+Janhavi Karekar
+Tamara Fernandes
+Khushboo Korani

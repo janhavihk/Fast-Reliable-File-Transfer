@@ -21,6 +21,6 @@ Throughput = 35.79Mbps
 Transfer time = 240 sec
 
 Group Members:
-Janhavi Karekar
-Tamara Fernandes
+Janhavi Karekar,
+Tamara Fernandes,
 Khushboo Korani
